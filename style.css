@@ -1,0 +1,171 @@
+/* HTML TAG section */
+
+body {
+    background-color: #EEEEEE;
+    color: #393E46;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+hr {
+
+}
+
+p {
+    line-height: 1.75;
+}
+
+a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009299;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.btn-dark {
+    background-color: #222831;
+}
+
+.btn-dark:hover {
+    background-color: #393E46;
+}
+
+
+.section-title {
+    margin-bottom: 15px;
+}
+/* Title section */
+
+#title {
+    padding-bottom: 35px;
+}
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+#title img {
+    height: 250px;
+    padding-bottom: 2rem;
+}
+
+/* About me section */
+
+#about-me {
+    padding: 35px 0px;
+    background-color: #393E46;
+    color: #EEEEEE;
+    
+}
+
+.description {
+    margin: 0% 10%;
+}
+
+.skills {
+    padding-top: 20px;
+    margin: 0% 10%;
+}
+
+.description {
+    padding-bottom: 3%;
+}
+
+.progress {
+    margin: 10px;
+}
+
+.progress-bar {
+    text-align: left;
+    letter-spacing: 1px;
+    background-color: #00ADB5;
+}
+
+.btn-soft-skills {
+    background-color: #EEEEEE;
+    margin: 0 15px 15px;
+}
+
+/* Education section */
+
+#education {
+    padding: 35px 0px;
+}
+
+/* Experience section */
+
+#experience {
+    padding: 35px 0px;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+/* Contact section */
+
+#contact {
+    padding: 35px 0px;
+}
+
+#btn-contact {
+    margin: 3% 0%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #222831;
+}
+
+#footer i {
+    margin: 20px 15px;
+    color: #EEEEEE;
+    
+}
+
+#footer p {
+    color: #EEEEEE;
+}
+
+
+#footer .container-fluid {
+    padding: 5%;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 100%;
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+}
+
+#btn-back-to-top:hover {
+    background-color: #009299;
+    border-color: #009299;
+}
+
+@media (max-width: 991px) {
+    .description {
+        margin: 0% 5%;
+    }
+    .skills {
+        margin: 0% 5%;
+    }
+}
