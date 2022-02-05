@@ -26,6 +26,8 @@ a:hover {
     color: #009299;
 }
 
+
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -38,9 +40,8 @@ a:hover {
     background-color: #393E46;
 }
 
-
 .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 2%;
 }
 /* Title section */
 
@@ -57,17 +58,20 @@ a:hover {
 }
 
 #title img {
-    height: 250px;
+    height: 300px;
     padding-bottom: 2rem;
 }
 
 /* About me section */
 
 #about-me {
-    padding: 35px 0px;
+    padding: 15px 0px;
     background-color: #393E46;
     color: #EEEEEE;
-    
+}
+
+#about-me p {
+    text-align: left;
 }
 
 .description {
@@ -75,8 +79,7 @@ a:hover {
 }
 
 .skills {
-    padding-top: 20px;
-    margin: 0% 10%;
+    margin: 0% 10% 3% ;
 }
 
 .description {
@@ -101,25 +104,96 @@ a:hover {
 /* Education section */
 
 #education {
-    padding: 35px 0px;
+    padding: 15px 0px;
 }
 
+#education strong {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.education-element {
+    background-color: #DDDDDD;
+    border-radius: 25px;
+    margin: 0 10% 3%;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.education-element i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.education-title {
+    margin-bottom: 0px;
+}
+
+.education-description {
+    margin: 0 2%
+}
+
+.years {
+    font-size: 15px;
+}
 /* Experience section */
 
 #experience {
-    padding: 35px 0px;
+    padding: 15px 0px;
     background-color: #393E46;
     color: #EEEEEE;
+}
+
+#experience strong {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#experience ul li:before {    
+    font-family: 'FontAwesome';
+    font-size: smaller;
+    content: '\f00c';
+    margin: 0 5px 0 -15px;
+    color: #00ADB5;
+}
+
+.work-element {
+    background-color: #222831;
+    border-radius: 25px;
+    margin: 0 10% 3%;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.last-element {
+    margin: 0 10% 0;
+}
+
+.work-element i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.work-title {
+    margin-bottom: 0px;
+}
+
+.work-description {
+    margin: 0 2%
 }
 
 /* Contact section */
 
 #contact {
-    padding: 35px 0px;
+
 }
 
 #btn-contact {
-    margin: 3% 0%;
+    margin: 2% 0%;
 }
 
 /* Footer */
@@ -134,13 +208,17 @@ a:hover {
     
 }
 
+#footer i:hover {
+    color: #00ADB5;
+}
+
 #footer p {
     color: #EEEEEE;
 }
 
 
 #footer .container-fluid {
-    padding: 5%;
+    padding: 3%;
 }
 
 #btn-back-to-top {
@@ -159,10 +237,22 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+    .container-fluid {
+        padding: 5% 3%;
+    }
     .description {
         margin: 0% 5%;
     }
     .skills {
-        margin: 0% 5%;
+        margin: 0% 5% 5%;
+    }
+    .education-element {
+        margin: 0 5% 5%;
+    }
+    .work-element{
+        margin: 0 5% 5%;
+    }
+    .last-element {
+        margin: 0 5% 0;
     }
 }
