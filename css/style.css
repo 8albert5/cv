@@ -59,7 +59,7 @@ a:hover {
 
 .section-subtitle {
     text-align: left;
-    margin: auto 20px 0 auto;
+    margin: auto 25px 0 auto;
 }
 
 .inner-container {
@@ -85,10 +85,6 @@ a:hover {
     text-align: justify;
 }
 
-.container-rounded-dark p {
-    margin-bottom: 0;
-}
-
 .container-rounded-light {
     background-color: #DDDDDD;
     border-radius: 25px;
@@ -96,10 +92,6 @@ a:hover {
     padding: 25px;
     position: relative;
     text-align: justify;
-}
-
-.container-rounded-light p {
-    margin-bottom: 0;
 }
 
 .btn-dropdown {
@@ -113,6 +105,7 @@ a:hover {
 }
 
 .dropdown-description {
+    text-align: justify;
     margin: 1% 2%
 }
 
@@ -140,38 +133,12 @@ a:hover {
     padding-bottom: 2rem;
 }
 
-
-
-.name-subtitle {
-    margin: 0 auto;
-    border-right: 2px solid;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 19.5em;   
-}
-
-
-/* Animation */
-.anim-typewriter {
-    animation: typewriter 3s steps(41) 1s 1 normal both,
-               blinkTextCursor 1000ms steps(41) infinite normal;
-}
-
-@keyframes typewriter {
-    from{width: 0;}
-    to{width: 19.5em;}
-    
-}
-
-@keyframes blinkTextCursor {
-    from{border-right-color: #393E46}
-    to{border-right-color: transparent;}
-}
-
 /* About me section */
 
 #about-me p {
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn-download {
@@ -193,12 +160,13 @@ a:hover {
 
 /* Education section */
 
-.years {
+.years-location {
     font-size: 15px;
+    text-align: left;
+    margin-bottom: 0;
 }
 
-.location-studies-work {
-    font-size: 15px;
+.years-location strong {
     font-weight: 600;
 }
 
