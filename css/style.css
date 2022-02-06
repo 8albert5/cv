@@ -26,6 +26,10 @@ a:hover {
     color: #009299;
 }
 
+li {
+    text-align: left;
+}
+
 /* Bootstrap elements */
 
 .container-fluid {
