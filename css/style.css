@@ -26,9 +26,7 @@ a:hover {
     color: #009299;
 }
 
-li {
-    text-align: left;
-}
+
 
 /* Bootstrap elements */
 
@@ -182,6 +180,10 @@ li {
     content: "\f120";
     margin: 0 5px 0 -15px;
     color: #00ADB5;
+}
+
+.task-element {
+    text-align: left;
 }
 
 /* Contact section */
